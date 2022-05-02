@@ -1,16 +1,24 @@
 {
-  "name": "exchange",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "parcel": "^2.0.0-rc.0",
-    "sass": "^1.26.7"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
-  }
+	"name": "exchange",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.0.0-rc.0",
+		"buffer": "^6.0.3",
+		"parcel": "^2.0.0-rc.0",
+		"sass": "^1.26.7"
+	},
+	"dependencies": {
+		"@noble/secp256k1": "^1.5.5",
+		"cors": "^2.8.5",
+		"crypto-js": "^4.1.1",
+		"elliptic": "^6.5.4",
+		"express": "^4.17.1"
+	}
 }
